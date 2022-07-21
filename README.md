@@ -8,6 +8,8 @@
 
 ## 적용법
 
+레지스트리 적용 시에는 VLC에서 한글 폰트가 굴림체로 출력됩니다. 한글 Windows 환경에서는 파일 적용을 권장드립니다.
+
 ### 레지스트리 (자동)
 * 폰트를 다운받으신 후 C 드라이브 최상위 경로 등 기억하기 쉬운 위치에 복사해주세요.
 * 기존 맑은 고딕 폰트와 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink 레지스트리는 백업하십시오.
@@ -91,5 +93,5 @@ del C:\Windows\System32\FNTCACHE.dat
 
 ## 라이선스
 
-* 원본 폰트의 저작권은 마이크로소프트에 있으며, 변경된 폰트는 Windows 내에서의 사용을 전제로 배포됩니다.
+* 원본 폰트의 저작권은 마이크로소프트와 산돌커뮤니케이션에 있으며, 변경된 폰트는 정품 Windows 10/Windows 11 내에서의 사용을 전제로 배포됩니다.
 * 웹폰트 임베딩, 상업 목적으로 사용하지 마십시오.
