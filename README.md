@@ -12,6 +12,7 @@
 
 ### 레지스트리 (자동)
 * 폰트를 다운받으신 후 C 드라이브 최상위 경로 등 기억하기 쉬운 위치에 복사해주세요.
+ * Windows 11 사용 시, Segoe UI Variable도 패치하려면 malgun-patch-w11.reg를 적용해주십시오. (주의 - 시스템에 따라 블루스크린이 발생할 수 있습니다.)
 * 기존 맑은 고딕 폰트와 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink 레지스트리는 백업하십시오.
 * 레지스트리를 적용해주십시오.
 
@@ -90,6 +91,10 @@ del C:\Windows\System32\FNTCACHE.dat
 ```
 
 * Windows로 진입하여 폰트가 출력되는지 확인하십시오.
+
+### 오류 복구
+
+* Windows를 재설치하십시오. 다만, Release Preview 환경에서는 기능 업데이트 적용 전으로 롤백이 가능합니다.
 
 ## 라이선스
 
